@@ -23,3 +23,25 @@ The executive team wanted to understand:
 
 ### Hypothesis
 The hypothesis: If I could identify distinct casual rider segments through behavioral analysis, I could design targeted membership campaigns with high conversion potential.
+
+## Phase 2: PREPARE – Data Foundation
+### Data Source
+* 12 months of Cyclistic ride data (December 2024– November 2025)
+* 12 separate CSV files (one per month)
+* 5.4M ride records
+
+### Initial Exploration in Excel
+I started by importing all 12 CSV files into Excel and creating a consolidated view. My first observation revealed a critical insight:
+
+* **Summer (May–September):** 910,726 casual rides
+* **Winter (December–February):** 87,770 casual rides
+* **Seasonal Swing:** 10.37x difference
+
+This immediately signaled a time-sensitive opportunity. The summer months concentrated nearly half of annual casual traffic—a window I couldn't afford to miss if launching a conversion campaign.
+
+### Initial Metrics
+* **Average ride duration (members):** 11.7 minutes
+* **Average ride duration (casuals):** 18.1 minutes
+
+**Insight:** Casual riders engage 54% longer, suggesting deeper interest and higher conversion potential
+
