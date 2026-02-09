@@ -107,3 +107,77 @@ Before moving to analysis, I validated:
 * ✓ hour_of_day range: 0–23
 * ✓ ride_length_minutes: all positive values
 * ✓ 5,438,000 total records across all months
+
+## Phase 4: ANALYZE – Discovering Insights in Power BI
+I built a 4-page Power BI dashboard to tell the story hidden in 5.44 million rides.
+
+### Page 1: Executive Overview
+* **Total rides:** 5.44M
+* **Member vs Casual split:** 65% vs 35%
+* **Average ride duration:** 14.88 minutes
+* **Top 10 stations:** Kingsbury St & Kinzie (42,000 rides)
+
+**Insight:** Casual riders concentrate geographically and temporally. They're not randomly distributed—they're concentrated at specific times and places.
+
+### Page 2: Behavior Analysis
+* **E-bike vs classic bike preference:** 63.81% of casual riders choose e-bikes
+* **Weekend concentration:** 40% of casual weekly traffic
+* **Geographic hotspots:** Navy Pier, Millennium Park, Streeter Dr
+
+**Critical Insight:** Casual riders choose e-bikes despite premium pricing. This means they prioritize quality over price—a game-changer for membership tier design.
+
+### Page 3: Time & Distance Patterns
+* **24-hour usage:** Casual peak at 5pm (180,000 rides), Member peak at 5am (340,000 rides)
+* **Seasonal breakdown:**
+  * Summer: 910,726 casual rides (47.3% of annual)
+  * Fall: 563,864 casual rides (29.3%)
+  * Spring: 363,802 casual rides (18.9%)
+  * Winter: 87,770 casual rides (4.6%)
+* **Ride duration:** Casual = 18.1 min, Member = 11.7 min
+
+**Critical Insight:** Casual and member riders have completely opposite patterns. Members commute at 5am (weekday); casuals recreate at 5pm (weekend). This demands different marketing approaches.
+
+### Page 4: Conversion Strategy
+Based on all discovered patterns, I designed 4 data-driven campaigns:
+
+#### Campaign 1: E-Bike Premium Tier 🔋
+* Who: 305,000 existing casual e-bike users
+* What: $15/month unlimited e-bike membership
+* Why: 63.81% already prefer e-bikes (no price sensitivity)
+* Target: 75,000 conversions
+* Revenue: $13.5M Year 1
+* ROI: 45x (HIGHEST)
+* Launch: Immediately
+
+#### Campaign 2: Summer Surge ☀️
+* Who: 304,000 seasonal casual riders
+* What: $60 summer-only pass (May–September)
+* Why: 47.3% of annual casual traffic (time-sensitive opportunity)
+* Target: 45,000 conversions
+* Revenue: $5.4M Year 1
+* ROI: 15x
+* Launch: May 1
+
+#### Campaign 3: Weekend Explorer 👨👩👧
+* Who: 260,000 weekend leisure/family riders
+* What: $25/month family tier (4 accounts)
+* Why: Weekends = 40% of casual traffic (high retention potential)
+* Target: 27,000 conversions
+* Revenue: $3.9M Year 1
+* ROI: 12x (35x with Year 2 retention)
+* Launch: June 1
+
+#### Campaign 4: Evening Shift 🏢
+* Who: 200,000 office workers (via B2B)
+* What: Corporate wellness memberships
+* Why: 5pm peak = work-to-home commute opportunity
+* Target: 20,000 conversions
+* Revenue: $2.4M Year 1
+* ROI: 10x
+* Launch: June 1
+
+#### Combined Campaign Impact
+* Total new members: 139,000 – 177,000
+* Total Year 1 revenue: $22.7M – $26.3M
+* Total Year 1 profit: $14M – $20M
+* Average portfolio ROI: 12x
