@@ -45,3 +45,65 @@ This immediately signaled a time-sensitive opportunity. The summer months concen
 
 **Insight:** Casual riders engage 54% longer, suggesting deeper interest and higher conversion potential
 
+## Phase 3: PROCESS – Data Transformation in Power Query
+Raw data isn't analysis-ready. Power Query became my transformation engine.
+
+### Step 1: Consolidating 12 Files into One Table
+### Step 2: Data Cleaning & Standardization
+### Step 3: Creating 9 New Analytical Columns
+This was where raw data transformed into business intelligence:
+
+#### 1. ride_length_minutes
+
+Purpose: Quantify engagement level
+Finding: Casual riders = 18.1 min avg (vs members 11.7 min)
+
+#### 2. day_of_week
+
+Purpose: Identify weekly patterns
+Finding: Weekends = 38% of casual weekly traffic
+
+#### 3. day_name
+
+Purpose: Create readable day labels
+Finding: Saturday & Sunday dominate casual usage
+
+#### 4. month
+
+Purpose: Enable monthly trend analysis
+Finding: June, July, August peak (summer season)
+
+#### 5. month_name
+
+Purpose: Display month names in visualizations
+Finding: Clear seasonal concentration
+
+#### 6. season
+
+Purpose: Seasonal segmentation
+Finding: 47.3% of casual annual traffic in 5 summer months
+
+#### 7. hour_of_day
+
+Purpose: Identify hourly usage patterns
+Finding: Casual peak = 5pm (leisure) | Member peak = 5am (commute)
+
+#### 8. is_same_station
+
+Purpose: Identify round-trip vs point-to-point rides
+Finding: 10% of casual rides are station-to-station round trips
+
+#### 9. distance_km
+
+Purpose: Understand travel distance behavior
+Finding: Casual riders average 2.28 km (vs members 2.19 km)
+
+### Step 4: Data Validation
+Before moving to analysis, I validated:
+
+* ✓ All 12 months represented
+* ✓ Date range: Jan 1 – Dec 31
+* ✓ member_casual only contains: "casual" or "member"
+* ✓ hour_of_day range: 0–23
+* ✓ ride_length_minutes: all positive values
+* ✓ 5,438,000 total records across all months
