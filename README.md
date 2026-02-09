@@ -118,7 +118,7 @@ I built a 4-page Power BI dashboard to tell the story hidden in 5.44 million rid
 * **Top 10 stations:** Kingsbury St & Kinzie (42,000 rides)
 
 **Insight:** Casual riders concentrate geographically and temporally. They're not randomly distributed—they're concentrated at specific times and places.
-
+![Main Dashboard](Dashboard/1_Executive_Overview.png)
 ### Page 2: Behavior Analysis
 * **E-bike vs classic bike preference:** 63.81% of casual riders choose e-bikes
 * **Weekend concentration:** 40% of casual weekly traffic
