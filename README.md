@@ -119,12 +119,14 @@ I built a 4-page Power BI dashboard to tell the story hidden in 5.44 million rid
 
 **Insight:** Casual riders concentrate geographically and temporally. They're not randomly distributed—they're concentrated at specific times and places.
 ![Main Dashboard](Dashboard/1_Executive_Overview.png)
+
 ### Page 2: Behavior Analysis
 * **E-bike vs classic bike preference:** 63.81% of casual riders choose e-bikes
 * **Weekend concentration:** 40% of casual weekly traffic
 * **Geographic hotspots:** Navy Pier, Millennium Park, Streeter Dr
 
 **Critical Insight:** Casual riders choose e-bikes despite premium pricing. This means they prioritize quality over price—a game-changer for membership tier design.
+![Main Dashboard](Dashboard/2_Behavior_Analysis.png)
 
 ### Page 3: Time & Distance Patterns
 * **24-hour usage:** Casual peak at 5pm (180,000 rides), Member peak at 5am (340,000 rides)
@@ -136,9 +138,11 @@ I built a 4-page Power BI dashboard to tell the story hidden in 5.44 million rid
 * **Ride duration:** Casual = 18.1 min, Member = 11.7 min
 
 **Critical Insight:** Casual and member riders have completely opposite patterns. Members commute at 5am (weekday); casuals recreate at 5pm (weekend). This demands different marketing approaches.
+![Main Dashboard](Dashboard/3_Time_And_Distance_patterns.png)
 
 ### Page 4: Conversion Strategy
 Based on all discovered patterns, I designed 4 data-driven campaigns:
+![Main Dashboard](Dashboard/4_Conversion_Strategy.png)
 
 #### Campaign 1: E-Bike Premium Tier 🔋
 * Who: 305,000 existing casual e-bike users
